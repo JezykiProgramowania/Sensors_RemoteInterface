@@ -1,0 +1,8 @@
+grant
+{
+permission java.net.SocketPermission "*:1024-65535", "connect"
+permission java.net.SocketPermission "*:80", "connect"
+permission java.net.SocketPermission" "127.0.0.1:1099" "connect,resolve"
+permission java.net.SocketPermission" "192.168.56.1" "connect,resolve"
+
+}
